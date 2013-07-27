@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B5F2A3317A461FC00F8E735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5F2A3217A461FC00F8E735 /* Foundation.framework */; };
+		1B5F2A3817A461FC00F8E735 /* KEXMLNSModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B5F2A3717A461FC00F8E735 /* KEXMLNSModel.h */; };
+		1B5F2A3A17A461FC00F8E735 /* KEXMLNSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F2A3917A461FC00F8E735 /* KEXMLNSModel.m */; };
+		1B5F2A4217A463B400F8E735 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F2A4117A463B400F8E735 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1B5F2A4517A463FD00F8E735 /* NSString+Cleanse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F2A4417A463FC00F8E735 /* NSString+Cleanse.m */; };
+		1B5F2A4617A466F800F8E735 /* GDataXMLNode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B5F2A4017A463B400F8E735 /* GDataXMLNode.h */; };
+		1B5F2A4717A466FD00F8E735 /* NSString+Cleanse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B5F2A4317A463FC00F8E735 /* NSString+Cleanse.h */; };
+		1B5F2A4F17A469D300F8E735 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5F2A4E17A469D300F8E735 /* SenTestingKit.framework */; };
+		1B5F2A5117A469D300F8E735 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5F2A5017A469D300F8E735 /* UIKit.framework */; };
+		1B5F2A5217A469D300F8E735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5F2A3217A461FC00F8E735 /* Foundation.framework */; };
+		1B5F2A5817A469D300F8E735 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B5F2A5617A469D300F8E735 /* InfoPlist.strings */; };
+		1B5F2A5B17A469D300F8E735 /* KEXMLNSModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F2A5A17A469D300F8E735 /* KEXMLNSModelTests.m */; };
+		1B5F2A6517A46A1400F8E735 /* Bookstore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F2A6117A46A1400F8E735 /* Bookstore.m */; };
+		1B5F2A6617A46A1400F8E735 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F2A6317A46A1400F8E735 /* Book.m */; };
+		1B5F2A6717A46A1400F8E735 /* sample.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1B5F2A6417A46A1400F8E735 /* sample.xml */; };
+		1B5F2A6917A46B6E00F8E735 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5F2A6817A46B6E00F8E735 /* libxml2.2.dylib */; };
+		1B5F2A6A17A46B7700F8E735 /* libKEXMLNSModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5F2A2F17A461FC00F8E735 /* libKEXMLNSModel.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B5F2A2D17A461FC00F8E735 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				1B5F2A4617A466F800F8E735 /* GDataXMLNode.h in CopyFiles */,
+				1B5F2A3817A461FC00F8E735 /* KEXMLNSModel.h in CopyFiles */,
+				1B5F2A4717A466FD00F8E735 /* NSString+Cleanse.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B5F2A2F17A461FC00F8E735 /* libKEXMLNSModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKEXMLNSModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5F2A3217A461FC00F8E735 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B5F2A3617A461FC00F8E735 /* KEXMLNSModel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KEXMLNSModel-Prefix.pch"; sourceTree = "<group>"; };
+		1B5F2A3717A461FC00F8E735 /* KEXMLNSModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEXMLNSModel.h; sourceTree = "<group>"; };
+		1B5F2A3917A461FC00F8E735 /* KEXMLNSModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEXMLNSModel.m; sourceTree = "<group>"; };
+		1B5F2A4017A463B400F8E735 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		1B5F2A4117A463B400F8E735 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		1B5F2A4317A463FC00F8E735 /* NSString+Cleanse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Cleanse.h"; sourceTree = "<group>"; };
+		1B5F2A4417A463FC00F8E735 /* NSString+Cleanse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Cleanse.m"; sourceTree = "<group>"; };
+		1B5F2A4D17A469D300F8E735 /* KEXMLNSModelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KEXMLNSModelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5F2A4E17A469D300F8E735 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1B5F2A5017A469D300F8E735 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1B5F2A5517A469D300F8E735 /* KEXMLNSModelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KEXMLNSModelTests-Info.plist"; sourceTree = "<group>"; };
+		1B5F2A5717A469D300F8E735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B5F2A5917A469D300F8E735 /* KEXMLNSModelTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEXMLNSModelTests.h; sourceTree = "<group>"; };
+		1B5F2A5A17A469D300F8E735 /* KEXMLNSModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEXMLNSModelTests.m; sourceTree = "<group>"; };
+		1B5F2A5C17A469D300F8E735 /* KEXMLNSModelTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KEXMLNSModelTests-Prefix.pch"; sourceTree = "<group>"; };
+		1B5F2A6017A46A1400F8E735 /* Bookstore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookstore.h; sourceTree = "<group>"; };
+		1B5F2A6117A46A1400F8E735 /* Bookstore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bookstore.m; sourceTree = "<group>"; };
+		1B5F2A6217A46A1400F8E735 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		1B5F2A6317A46A1400F8E735 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		1B5F2A6417A46A1400F8E735 /* sample.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sample.xml; sourceTree = "<group>"; };
+		1B5F2A6817A46B6E00F8E735 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B5F2A2C17A461FC00F8E735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5F2A3317A461FC00F8E735 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5F2A4917A469D300F8E735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5F2A6A17A46B7700F8E735 /* libKEXMLNSModel.a in Frameworks */,
+				1B5F2A6917A46B6E00F8E735 /* libxml2.2.dylib in Frameworks */,
+				1B5F2A4F17A469D300F8E735 /* SenTestingKit.framework in Frameworks */,
+				1B5F2A5117A469D300F8E735 /* UIKit.framework in Frameworks */,
+				1B5F2A5217A469D300F8E735 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B5F2A2617A461FC00F8E735 = {
+			isa = PBXGroup;
+			children = (
+				1B5F2A6817A46B6E00F8E735 /* libxml2.2.dylib */,
+				1B5F2A3417A461FC00F8E735 /* KEXMLNSModel */,
+				1B5F2A5317A469D300F8E735 /* KEXMLNSModelTests */,
+				1B5F2A3117A461FC00F8E735 /* Frameworks */,
+				1B5F2A3017A461FC00F8E735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B5F2A3017A461FC00F8E735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F2A2F17A461FC00F8E735 /* libKEXMLNSModel.a */,
+				1B5F2A4D17A469D300F8E735 /* KEXMLNSModelTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B5F2A3117A461FC00F8E735 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F2A3217A461FC00F8E735 /* Foundation.framework */,
+				1B5F2A4E17A469D300F8E735 /* SenTestingKit.framework */,
+				1B5F2A5017A469D300F8E735 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B5F2A3417A461FC00F8E735 /* KEXMLNSModel */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F2A4017A463B400F8E735 /* GDataXMLNode.h */,
+				1B5F2A4117A463B400F8E735 /* GDataXMLNode.m */,
+				1B5F2A3717A461FC00F8E735 /* KEXMLNSModel.h */,
+				1B5F2A3917A461FC00F8E735 /* KEXMLNSModel.m */,
+				1B5F2A4317A463FC00F8E735 /* NSString+Cleanse.h */,
+				1B5F2A4417A463FC00F8E735 /* NSString+Cleanse.m */,
+				1B5F2A3517A461FC00F8E735 /* Supporting Files */,
+			);
+			path = KEXMLNSModel;
+			sourceTree = "<group>";
+		};
+		1B5F2A3517A461FC00F8E735 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F2A3617A461FC00F8E735 /* KEXMLNSModel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B5F2A5317A469D300F8E735 /* KEXMLNSModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F2A5917A469D300F8E735 /* KEXMLNSModelTests.h */,
+				1B5F2A5A17A469D300F8E735 /* KEXMLNSModelTests.m */,
+				1B5F2A6017A46A1400F8E735 /* Bookstore.h */,
+				1B5F2A6117A46A1400F8E735 /* Bookstore.m */,
+				1B5F2A6217A46A1400F8E735 /* Book.h */,
+				1B5F2A6317A46A1400F8E735 /* Book.m */,
+				1B5F2A6417A46A1400F8E735 /* sample.xml */,
+				1B5F2A5417A469D300F8E735 /* Supporting Files */,
+			);
+			path = KEXMLNSModelTests;
+			sourceTree = "<group>";
+		};
+		1B5F2A5417A469D300F8E735 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F2A5517A469D300F8E735 /* KEXMLNSModelTests-Info.plist */,
+				1B5F2A5617A469D300F8E735 /* InfoPlist.strings */,
+				1B5F2A5C17A469D300F8E735 /* KEXMLNSModelTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B5F2A2E17A461FC00F8E735 /* KEXMLNSModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5F2A3D17A461FC00F8E735 /* Build configuration list for PBXNativeTarget "KEXMLNSModel" */;
+			buildPhases = (
+				1B5F2A2B17A461FC00F8E735 /* Sources */,
+				1B5F2A2C17A461FC00F8E735 /* Frameworks */,
+				1B5F2A2D17A461FC00F8E735 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KEXMLNSModel;
+			productName = KEXMLNSModel;
+			productReference = 1B5F2A2F17A461FC00F8E735 /* libKEXMLNSModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1B5F2A4C17A469D300F8E735 /* KEXMLNSModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5F2A5D17A469D300F8E735 /* Build configuration list for PBXNativeTarget "KEXMLNSModelTests" */;
+			buildPhases = (
+				1B5F2A4817A469D300F8E735 /* Sources */,
+				1B5F2A4917A469D300F8E735 /* Frameworks */,
+				1B5F2A4A17A469D300F8E735 /* Resources */,
+				1B5F2A4B17A469D300F8E735 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KEXMLNSModelTests;
+			productName = KEXMLNSModelTests;
+			productReference = 1B5F2A4D17A469D300F8E735 /* KEXMLNSModelTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B5F2A2717A461FC00F8E735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kelvin Chan";
+			};
+			buildConfigurationList = 1B5F2A2A17A461FC00F8E735 /* Build configuration list for PBXProject "KEXMLNSModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B5F2A2617A461FC00F8E735;
+			productRefGroup = 1B5F2A3017A461FC00F8E735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B5F2A2E17A461FC00F8E735 /* KEXMLNSModel */,
+				1B5F2A4C17A469D300F8E735 /* KEXMLNSModelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B5F2A4A17A469D300F8E735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5F2A5817A469D300F8E735 /* InfoPlist.strings in Resources */,
+				1B5F2A6717A46A1400F8E735 /* sample.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B5F2A4B17A469D300F8E735 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B5F2A2B17A461FC00F8E735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5F2A4217A463B400F8E735 /* GDataXMLNode.m in Sources */,
+				1B5F2A3A17A461FC00F8E735 /* KEXMLNSModel.m in Sources */,
+				1B5F2A4517A463FD00F8E735 /* NSString+Cleanse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5F2A4817A469D300F8E735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5F2A5B17A469D300F8E735 /* KEXMLNSModelTests.m in Sources */,
+				1B5F2A6517A46A1400F8E735 /* Bookstore.m in Sources */,
+				1B5F2A6617A46A1400F8E735 /* Book.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B5F2A5617A469D300F8E735 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B5F2A5717A469D300F8E735 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B5F2A3B17A461FC00F8E735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B5F2A3C17A461FC00F8E735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B5F2A3E17A461FC00F8E735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KEXMLNSModel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KEXMLNSModel/KEXMLNSModel-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1B5F2A3F17A461FC00F8E735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KEXMLNSModel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KEXMLNSModel/KEXMLNSModel-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1B5F2A5E17A469D300F8E735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KEXMLNSModelTests/KEXMLNSModelTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "KEXMLNSModelTests/KEXMLNSModelTests-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1B5F2A5F17A469D300F8E735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KEXMLNSModelTests/KEXMLNSModelTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "KEXMLNSModelTests/KEXMLNSModelTests-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B5F2A2A17A461FC00F8E735 /* Build configuration list for PBXProject "KEXMLNSModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5F2A3B17A461FC00F8E735 /* Debug */,
+				1B5F2A3C17A461FC00F8E735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5F2A3D17A461FC00F8E735 /* Build configuration list for PBXNativeTarget "KEXMLNSModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5F2A3E17A461FC00F8E735 /* Debug */,
+				1B5F2A3F17A461FC00F8E735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B5F2A5D17A469D300F8E735 /* Build configuration list for PBXNativeTarget "KEXMLNSModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5F2A5E17A469D300F8E735 /* Debug */,
+				1B5F2A5F17A469D300F8E735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B5F2A2717A461FC00F8E735 /* Project object */;
+}

@@ -18,7 +18,6 @@
 
 - (void)setUp
 {
-    // test github
     [super setUp];
     
     NSString *fullfilename = [[NSBundle bundleForClass:[self class]] pathForResource:@"sample" ofType:@"xml"];

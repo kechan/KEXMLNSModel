@@ -10,7 +10,7 @@ This is a young project, so please be patient with bugs, limitations, and other 
 It is a convenient mapper that helps with mapping an XML message to a hierarchy/tree of NSObject-based
 objects, with as little repetitive coding as possible. This project depends on [GDataXMLNode](https://github.com/neonichu/GDataXML). I am a newbie in terms
 of sharing code (open source). Right now, I am just dropping in the 2 files (GDataXMLNode.h, .m) and ran with it.
-Veterans, please guide me the best practice and how this should be attributed?
+Veterans, please guide me with the best practice and how this should be attributed, licensed, etc, etc?
 
 More to come...
 

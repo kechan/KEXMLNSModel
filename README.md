@@ -1,8 +1,7 @@
 A Simple XML->NSObject Mapper for iOS
 
 ---
-This is Version 0.01. Please read the [wiki](https://github.com/kechan/KEXMLNSModel/wiki) page for more details. This code has been tested with iOS 6.0 and XCode 4.6.3.
-This is a young project, so please be patient with bugs, limitations, and other immaturities.
+This is Version 0.01. Please read the [wiki](https://github.com/kechan/KEXMLNSModel/wiki) page for more details.
 
 ---
 
